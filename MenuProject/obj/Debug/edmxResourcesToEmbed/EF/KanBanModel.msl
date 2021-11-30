@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище KanBanDBModelContainer" CdmEntityContainer="KanBanDBEntities">
+    <EntitySetMapping Name="Task">
+      <EntityTypeMapping TypeName="KanBanDBModel.Task">
+        <MappingFragment StoreEntitySet="Task">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="DateOfCompletion" ColumnName="DateOfCompletion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
